@@ -98,6 +98,14 @@ footer {
   margin-top: 60px;
 }
 
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 20px;
