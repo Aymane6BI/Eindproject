@@ -1,6 +1,3 @@
-// script.js
-
-// Highlight actieve link in navigatie
 const currentPage = window.location.pathname.split("/").pop();
 const navLinks = document.querySelectorAll("nav a");
 
@@ -10,7 +7,6 @@ navLinks.forEach(link => {
   }
 });
 
-// Scroll naar boven bij herladen (optioneel)
 window.onbeforeunload = () => {
   window.scrollTo(0, 0);
 };
