@@ -68,6 +68,13 @@ a.button:hover,
 input[type="submit"]:hover {
   background-color: #155ab6;
 }
+.fotodiensten {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 20px 0;
+}
 
 form {
   margin-top: 20px;
@@ -168,3 +175,11 @@ nav a {
   transition: color 0.3s;
 }
 
+.header-img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 20px 0;
+  display: block;
+}
